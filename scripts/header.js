@@ -7,27 +7,27 @@ function generateHeader(){
 
       <ul class="nav-menu">
         <li>
-          <button class="nav-btn about" data-webpage = "kristopherkohlmeier.com/index.html">ABOUT</button>
+          <button class="nav-btn about" data-webpage = "index.html">ABOUT</button>
         </li>
 
         <li>
           <button class="nav-btn projects">PROJECTS</button>
           <ul class = "dropdown">
             <li>
-              <button class="nav-btn sds" data-webpage = "kristopherkohlmeier.com/story-development-software.html">SDS</button>
+              <button class="nav-btn sds" data-webpage = "story-development-software.html">SDS</button>
             </li>
             <li>
-              <button class="nav-btn padoq" data-webpage = "kristopherkohlmeier.com/padoq.html">PADOQ</button>
+              <button class="nav-btn padoq" data-webpage = "padoq.html">PADOQ</button>
             </li>
           </ul>
         </li>
 
         <li>
-          <button class="nav-btn resume" data-webpage = "kristopherkohlmeier.com/resume.html">RESUME</button>
+          <button class="nav-btn resume" data-webpage = "resume.html">RESUME</button>
         </li>
 
         <li>
-          <button class="nav-btn contact" data-webpage = "kristopherkohlmeier.com/contact.html">CONTACT</button>
+          <button class="nav-btn contact" data-webpage = "contact.html">CONTACT</button>
         </li>
       </ul>
     </nav>
