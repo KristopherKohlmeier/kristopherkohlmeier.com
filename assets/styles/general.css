@@ -47,3 +47,7 @@ img{
  html{
   font-size: 100%;
 }
+
+section {
+  max-width: 100%;
+}
