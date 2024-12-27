@@ -1,0 +1,21 @@
+footer{
+  display: flex;
+  background-color: rgb(200, 200, 200);
+  text-align: center;
+  justify-content: center;
+  height: 200px;
+  width: 100%;
+  font-family: sans-serif;
+  color:gray;
+  align-items: center;
+}
+
+@media screen and (max-width: 480px){
+
+  footer{
+    height: 100px;
+    width: 100%;
+    font-size: 12px;
+  }
+
+}

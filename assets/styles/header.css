@@ -1,0 +1,173 @@
+.site-header{
+  display: flex;
+  justify-content: end;
+  background-color: rgb(32, 32, 32);
+  position: fixed;
+  top: 0px;
+  width: 100vw;
+  height: 5em;
+}
+.nav-menu{
+  display: grid;
+  grid-auto-flow: column;
+  vertical-align: center;
+
+  grid-column-gap: 3em;
+  margin-inline: 3em;
+}
+
+.site-nav{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-btn{
+  display: flex;
+  font-family: 'Arial';
+  position: relative;
+  cursor: pointer;
+  color:white;
+  background-color: transparent;
+  border: none;
+  transition: .5s;
+  font-weight: bold;
+  
+  font-size: 1.25rem;
+}
+
+.nav-btn:hover {
+  color:cyan;
+}
+
+
+.dropdown{
+  display: none;
+  opacity: 0;
+  flex-direction: column;
+  justify-content: right;
+  position: absolute;
+  width: 100%;
+  background: linear-gradient(rgba(32,32,32, 1) 0%, rgba(32,32,32,0) 100%);
+  animation: vanish .5s;
+  padding-top: 2em;
+}
+
+.dropdown .nav-btn{
+  margin-bottom: 1rem;
+}
+
+li:hover ul.dropdown{
+  display: flex;
+  opacity: 1;
+  animation: appear .5s;
+}
+
+@keyframes appear {
+
+  from {
+    opacity: 0;
+    display: none;
+  }
+
+  to {
+    opacity: 1;
+    display: flex;
+  }
+  
+}
+
+@keyframes vanish {
+
+  from {
+    opacity: 1;
+    display: flex;
+  }
+
+  to {
+    opacity: 0;
+    display: none;
+  }
+  
+}
+
+/* Small Mobile */
+@media (min-width: 320px){
+  .site-header {
+    justify-content: center;
+  }
+
+  .nav-btn{
+    font-size: .8em;
+  }
+  
+  .nav-menu {
+    grid-column-gap: 0em;
+    margin-inline: 1em;
+  }
+}
+
+/* Mobile */
+@media (min-width: 480px){
+  .site-header {
+    justify-content: center;
+  }
+
+  .nav-btn{
+    font-size: 1em;
+  }
+  
+  .nav-menu {
+    grid-column-gap: 2em;
+    margin-inline: 2em;
+  }
+}
+
+/* Tablets */
+@media (min-width: 768px){
+  .site-header {
+    justify-content: end;
+  }
+
+  .nav-btn{
+    font-size: 1.25em;
+  }
+  
+  .nav-menu {
+    grid-column-gap: 3em;
+    margin-inline: 3em;
+  }
+}
+
+/* Small desktop */
+@media (min-width: 992px){
+  .site-header {
+    justify-content: end;
+  }
+
+  .nav-btn{
+    font-size: 1.25em;
+  }
+  
+  .nav-menu {
+    grid-column-gap: 3em;
+    margin-inline: 3em;
+  }
+}
+
+/* Large devices */
+@media (min-width: 1200px){
+  .site-header {
+    justify-content: end;
+  }
+
+  .nav-btn{
+    font-size: 1.25em;
+  }
+  
+  .nav-menu {
+    grid-column-gap: 3em;
+    margin-inline: 3em;
+  }
+}
