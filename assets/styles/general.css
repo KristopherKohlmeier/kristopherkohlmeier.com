@@ -26,6 +26,8 @@ section {
   flex-direction: column;
   align-items: center;
   height: auto;
+  gap: 3em;
+  justify-content: center;
 }
 
 ul {
