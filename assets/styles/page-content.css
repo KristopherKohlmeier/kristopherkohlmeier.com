@@ -4,10 +4,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  -webkit-justify-self: center;
-  -moz-justify-self: center;
   justify-self: center;
   align-self: center;
+  justify-content: center;
+  align-content: center;
   gap: 3em;
   padding-block: 3em;
 }                
