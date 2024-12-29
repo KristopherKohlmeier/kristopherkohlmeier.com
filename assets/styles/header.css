@@ -12,7 +12,6 @@
   display: grid;
   grid-auto-flow: column;
   vertical-align: center;
-
   grid-column-gap: 3em;
   margin-inline: 3em;
 }
@@ -34,7 +33,6 @@
   border: none;
   transition: .5s;
   font-weight: bold;
-  
   font-size: 1.25rem;
 }
 
