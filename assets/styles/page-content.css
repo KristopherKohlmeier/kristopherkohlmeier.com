@@ -6,7 +6,6 @@
   align-items: center;
   justify-self: center;
   align-self: center;
-  float: center;
   justify-content: center;
   align-content: center;
   gap: 3em;
@@ -222,7 +221,7 @@ p,
 /* Large devices */
 @media screen and (min-width: 1200px){         
 
-  
+
 
   p,
   .anchor-box{
