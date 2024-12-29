@@ -6,6 +6,7 @@
   align-items: center;
   justify-self: center;
   text-align: -webkit-center;
+  display: -webkit-flex;
 }                
 
 .page-title{
