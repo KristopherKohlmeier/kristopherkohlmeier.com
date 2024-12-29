@@ -1,6 +1,9 @@
 
 * {
   font-family: sans-serif;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
 @font-face {
@@ -8,7 +11,7 @@
   src: url("../fonts/Roboto/Roboto-Regular.ttf");
 }
 
-body{
+body {
   background-color: rgb(200, 200, 200);
   margin: 0px;
   padding: 0px;
