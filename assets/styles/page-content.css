@@ -95,6 +95,10 @@ p,
 /* Small Mobile */
 @media screen and (min-width: 320px){           
 
+  section {
+    max-width: 90%;
+  }
+
   p,
   .anchor-box{
     font-size: 1em;
@@ -125,6 +129,9 @@ p,
 /* Mobile */
 @media screen and (min-width: 480px){      
 
+  section {
+    max-width: 80%;
+  }
 
   p,
   .anchor-box{
@@ -155,6 +162,9 @@ p,
 /* Tablets */
 @media screen and (min-width: 768px){           
 
+  section {
+    max-width: 70%;
+  }
 
   p,
   .anchor-box{
@@ -186,6 +196,9 @@ p,
 /* Small desktop */
 @media screen and (min-width: 992px){           
 
+  section {
+    max-width: 60%;
+  }
 
   p,
   .anchor-box{
@@ -216,6 +229,11 @@ p,
 
 /* Large devices */
 @media screen and (min-width: 1200px){         
+
+  section {
+    max-width: 50%;
+  }
+
 
   p,
   .anchor-box{
