@@ -44,7 +44,6 @@
 
 p,
 .anchor-box{
-  justify-self: center;
   text-align: center;
   font-family: sans-serif;
   line-height: 140%;
@@ -89,6 +88,12 @@ p,
   width: 100%;
   height: 100%;
   max-width: 100%;
+}
+
+.framework-images {
+  display: flex;
+  justify-content: center;
+  gap: 2em;
 }
 
 
