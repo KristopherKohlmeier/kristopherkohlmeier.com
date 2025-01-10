@@ -16,9 +16,6 @@ function generateHeader(){
             <li>
               <button class="nav-btn sds" data-webpage = "story-development-software.html">SDS</button>
             </li>
-            <li>
-              <button class="nav-btn padoq" data-webpage = "padoq.html">PADOQ</button>
-            </li>
           </ul>
         </li>
 
