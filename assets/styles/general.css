@@ -53,3 +53,7 @@ img{
   max-width: 100%;
   overflow-x: hidden;
 }
+
+.list{
+  text-align: left;
+}
