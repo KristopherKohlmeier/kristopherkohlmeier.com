@@ -53,6 +53,10 @@ p,
   max-width: 100%;
 }
 
+.sds-paragraph{
+  text-align: left;
+}
+
 .square-logo {
   width: 5em;
   height: 5em;
